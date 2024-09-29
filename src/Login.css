@@ -1,0 +1,90 @@
+.login {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center the content vertically */
+    background-color: #eef2f3; /* Soft, pleasant background */
+}
+
+.login__logo {
+    margin-bottom: 20px;
+    width: 120px; /* Logo width */
+    object-fit: contain;
+}
+
+.login__container {
+    width: 400px; /* Wider container for better layout */
+    padding: 40px; /* Ample padding for comfort */
+    border-radius: 10px; /* More rounded corners */
+    border: 1px solid #dcdcdc; /* Light border */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    background-color: #ffffff; /* Clean white background */
+}
+
+.login__container > h1 {
+    font-weight: bold;
+    font-size: 24px; /* Larger title */
+    margin-bottom: 30px; /* Space below the title */
+    text-align: center; /* Centering the title */
+    color: #333; /* Dark text for readability */
+}
+
+.login__container > form > h4 {
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #555; /* Slightly lighter color */
+}
+
+.login__container > form > input {
+    height: 45px; /* Increased height for better usability */
+    margin-bottom: 15px; /* Space between inputs */
+    padding: 0 15px; /* Side padding */
+    border: 1px solid #ccc; /* Subtle border */
+    border-radius: 5px; /* Rounded corners */
+    transition: border-color 0.3s; /* Smooth border transition */
+}
+
+.login__container > form > input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+}
+
+.login__container > p {
+    margin-top: 15px;
+    font-size: 12px;
+    text-align: center; /* Centered text */
+    color: #777; /* Light gray text */
+}
+
+.login__signInButton {
+    background: #007bff; /* Bright blue for the sign-in button */
+    border-radius: 5px; /* Rounded corners */
+    width: 100%;
+    height: 45px; /* Increased height */
+    border: none; /* No border */
+    color: white; /* White text */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor */
+    transition: background 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+.login__signInButton:hover {
+    background: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.login__registerButton {
+    border-radius: 5px; /* Rounded corners */
+    width: 100%;
+    height: 45px; /* Increased height */
+    border: 1px solid #ccc; /* Subtle border */
+    margin-top: 10px;
+    background-color: #f8f8f8; /* Light gray background */
+    cursor: pointer; /* Pointer cursor */
+    transition: background 0.3s; /* Smooth transition */
+}
+
+.login__registerButton:hover {
+    background-color: #e0e0e0; /* Darker gray on hover */
+}

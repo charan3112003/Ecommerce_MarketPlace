@@ -1,0 +1,52 @@
+.CheckoutProduct {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    padding: 15px; /* Space inside the product card */
+    background-color: #fff; /* White background for better contrast */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.checkoutProduct__info {
+    padding-left: 20px;
+    flex: 1; /* Allow this section to grow */
+}
+
+.checkoutProduct__image {
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+    border-radius: 8px; /* Rounded corners for the image */
+}
+
+.checkoutProduct__rating {
+    display: flex;
+    justify-content: flex-start; /* Align stars to the left */
+}
+
+.checkoutProduct__title {
+    font-size: 18px; /* Slightly larger for better readability */
+    font-weight: 600; /* Medium weight for clarity */
+}
+
+.checkoutProduct__price {
+    font-size: 16px; /* Consistent font size */
+    margin-top: 5px; /* Space between title and price */
+}
+
+.checkoutProduct__info > button {
+    background: #f0c14b;
+    border: 1px solid #a88734; /* Simplified border */
+    margin-top: 10px;
+    color: #111;
+    padding: 10px; /* Add padding for better button size */
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s; /* Smooth transition for hover effect */
+}
+
+.checkoutProduct__info > button:hover {
+    background: #ddb347; /* Darker shade on hover */
+}
